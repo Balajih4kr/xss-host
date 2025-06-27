@@ -1,4 +1,4 @@
-// vercel.json
+
 {
   "rewrites": [
     { "source": "/owa", "destination": "/owa/index.html" }
