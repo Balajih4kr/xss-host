@@ -1,6 +1,0 @@
-
-{
-  "rewrites": [
-    { "source": "/owa", "destination": "/owa/index.html" }
-  ]
-}
